@@ -8,6 +8,7 @@
     android:padding="20dp">
 
     <Button
+        android:id="@+id/logBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="누르면 로그 찍힘" />
