@@ -8,8 +8,14 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:tag="firstFrag"
         class="com.neppplus.fragmentpractice_20210327.fragments.FirstFragment"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="300dp"
+        android:tag="firstFrag" />
+
+    <fragment
+        class="com.neppplus.fragmentpractice_20210327.fragments.SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:tag="secondFrag" />
 </LinearLayout>
